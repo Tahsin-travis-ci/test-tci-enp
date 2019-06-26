@@ -1,4 +1,4 @@
-language: shell
+language: sh
 before_install:
   - echo $TRAVIS_COMMIT
   - echo $TRAVIS_TAG
