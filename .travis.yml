@@ -5,3 +5,5 @@ before_install:
   - echo $TRAVIS_BRANCH
   - echo $TRAVIS_BUILD_NUMBER
   - echo $TRAVIS_REPO_SLUG
+language: ruby
+cache: bundler
